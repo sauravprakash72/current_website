@@ -69,9 +69,15 @@ email: "sauravpr@usc.edu"
 highlight_name: false
 ---
 
-Hi, I am a PhD candidate in the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, working under the guidance of Prof. Salman Avestimehr in the Information Theory and Machine Learning (vITAL) research lab. I have also collaborated closely with Prof. Ramtin Pedarsani, and Prof. Murali Annavaram. 
+Hi, I am a PhD candidate in the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, working under the guidance of Prof. Salman Avestimehr in the Information Theory and Machine Learning (vITAL) research lab. During my research pursuits, I have also collaborated closely with Prof. Ramtin Pedarsani, Prof. Murali Annavaram, and Prof. Keith Chugg. 
 
-During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the three main distributed computing paradigms -- (1) server-assisted computing with centralized data placement, (2) server-assisted computing with data at the edge users,  (3) serverless computing.  
+During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the following three main distributed computing paradigms:  
+
+<ol>
+  <li><em>Server-assisted computing with centralized data placement.</em> This includes the crucial problem of large-scale machine learning in sevrer farms, where server entity has full control over data. In this setting, one of the key bottlenecks is that of straggling nodes, that can degrade the  training performance significantly by slowing it down. </li>
+  <li><em>Server-assisted computing with data at the edge users.</em> This includes the problem of federated learning, where a server entity, such as Google, wants to train a machine learning model from data at the users, while ensuring data privacy. Specifically, </li>
+  <li><em>Serverless computing</em></li>
+</ol>
 
 I have also had the fortune to gain industry experience through multiple internships. I spent Summer 2018 and Summer 2019 as Research Intern at Intel Labs under under Shilpa Talwar respectively. During Summer 2021, I was an Applied Scientist Intern at Amazon Alexa AI under Clement Chung and Rahul Gupta.
 

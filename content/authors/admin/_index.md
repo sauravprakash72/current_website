@@ -69,7 +69,7 @@ email: "sauravpr@usc.edu"
 highlight_name: false
 ---
 
-Hi, I am a PhD candidate in the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, working under the guidance of Prof. Salman Avestimehr in the Information Theory and Machine Learning (vITAL) research lab. During my research pursuits, I have also collaborated closely with Prof. Ramtin Pedarsani, Prof. Murali Annavaram, and Prof. Keith Chugg. 
+Hi, I am a PhD candidate in the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, working under the guidance of Prof. Salman Avestimehr in the Information Theory and Machine Learning (vITAL) research lab. During my research pursuits, I have also collaborated closely with Prof. Murali Annavaram, Prof. Keith Chugg, and Prof. Ramtin Pedarsani. 
 
 During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the following three main distributed computing paradigms:  
 

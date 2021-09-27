@@ -81,5 +81,7 @@ During my time here, I have been exploring practical strategies for mitigating r
 
 I have also had the fortune to gain industry experience through multiple internships. I spent Summer 2018 and Summer 2019 as Research Intern at Intel Labs under under Shilpa Talwar respectively. During Summer 2021, I was an Applied Scientist Intern at Amazon Alexa AI under Clement Chung and Rahul Gupta.
 
+Prior to joining the graduate school, I completed received my BTech in <a href="https://www.iitk.ac.in/ee/">Electrical Engineering</a> from the <a href="https://iitk.ac.in/">Indian Institute of Technology Kanpur</a>, in 2016. As an undergrad, I did research in wireless communications under <a href="http://home.iitk.ac.in/~adityaj/">Prof. Aditya K. Jagannatham</a>, in the <a href="http://www.iitk.ac.in/mwn/">Multimedia Wireless Networks (MWN)</a> Group.
+
 Outside research, I like hanging out with friends, watching classical Bollywood movies, and listening to Indian classical music. 
 

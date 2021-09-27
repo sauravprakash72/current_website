@@ -1,0 +1,95 @@
+---
+
+title: "Coded federated learning"
+# draft: true
+# Authors
+# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
+# and it will be replaced with their full name and linked to their profile.
+authors:
+- Sagar Dhakal 
+- Saurav Prakash
+- Yair Yona
+- Shilpa Talwar
+- Nageen Himayat
+
+# Author notes (optional)
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+
+date: "2020-03-05"
+doi: "10.1109/GCWkshps45667.2019.9024521"
+
+# # Schedule page publish date (NOT publication's date).
+# publishDate: "2017-01-01T00:00:00Z"
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["0"]
+
+# Publication name and optional abbreviated publication name.
+publication: In *IEEE Globecom Workshops*
+publication_short: In *IEEE Globecom Workshops*
+
+abstract: Federated learning is a method of training a global model from decentralized data distributed across client devices. Here, model parameters are computed locally by each client device and exchanged with a central server, which aggregates the local models for a global view, without requiring sharing of training data. The convergence performance of federated learning is severely impacted in heterogeneous computing platforms such as those at the wireless edge, where straggling computations and communication links can significantly limit timely model parameter updates. This paper develops a novel coded computing technique for federated learning to mitigate the impact of stragglers. In the proposed Coded Federated Learning (CFL) scheme, each client device privately generates parity training data and shares it with the central server only once at the start of the training phase. The central server can then preemptively perform redundant gradient computations on the composite parity data to compensate for the erased or delayed parameter updates. Our results show that CFL allows the global model to converge nearly four times faster when compared to an uncoded approach.
+
+
+ 
+
+
+# # Summary. An optional shortened abstract.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+# tags: []
+
+# Display this page in the Featured widget?
+featured: false
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/9024521'
+# url_code: ''
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: ''
+# url_video: ''
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+
+
+<!-- {{% callout note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->

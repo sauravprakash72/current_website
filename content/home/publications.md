@@ -7,9 +7,9 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 22
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
 content:
@@ -25,7 +25,7 @@ content:
   filters:
     tag: ''
     category: ''
-    publication_type: ''
+    publication_type: '4'
     author: ''
     exclude_featured: true
 design:

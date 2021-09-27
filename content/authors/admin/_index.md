@@ -69,9 +69,11 @@ email: "sauravpr@usc.edu"
 highlight_name: false
 ---
 
-As a graduate student at USC, I have been quite fortunate to be advised by Prof. Avestimehr. Under his guidance and with his constant support, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the three main distributed computing paradigms -- (1) server-assisted computing with centralized data placement, (2) server-assisted computing with data at the edge users,  (3) serverless computing.  
+Hi, I am a PhD candidate in the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, working under the guidance of Prof. Salman Avestimehr in the Information Theory and Machine Learning (vITAL) research lab. I have also collaborated closely with Prof. Ramtin Pedarsani, and Prof. Murali Annavaram. 
 
-I have also had the fortune to gain industry experience through multiple internships at Intel Labs during summers of 2018 and 2019, as well as at Amazon during the summer of 2021. At Intel, my internships were under Shilpa Talwar (2018) and under Nageen Himayat (2019), and I also worked closely with Sagar Dhakal, Mustafa Akdeniz, and Yair Yona. At Amazon, my internship was under Clement Chung and Rahul Gupta, and I also worked closely with Christophe Dupuy and Leo Long.
+During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the three main distributed computing paradigms -- (1) server-assisted computing with centralized data placement, (2) server-assisted computing with data at the edge users,  (3) serverless computing.  
+
+I have also had the fortune to gain industry experience through multiple internships. I spent Summer 2018 and Summer 2019 as Research Intern at Intel Labs under under Shilpa Talwar respectively. During Summer 2021, I was an Applied Scientist Intern at Amazon Alexa AI under Clement Chung and Rahul Gupta.
 
 Outside research, I like hanging out with friends, watching classical Bollywood movies, and listening to Indian classical music. 
 

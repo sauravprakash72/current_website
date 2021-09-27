@@ -74,9 +74,9 @@ Hi, I am a PhD candidate in the Ming Hsieh Department of Electrical and Computer
 During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the following three main distributed computing paradigms:  
 
 <ol>
-  <li><em>Server-assisted computing with centralized data placement.</em> This includes the crucial problem of large-scale machine learning in sevrer farms, where server entity has full control over data. In this setting, one of the key bottlenecks is that of straggling nodes, that can degrade the  training performance significantly by slowing it down. </li>
-  <li><em>Server-assisted computing with data at the edge users.</em> This includes the problem of federated learning, where a server entity, such as Google, wants to train a machine learning model from data at the users, while ensuring data privacy. Specifically, </li>
-  <li><em>Serverless computing</em></li>
+  <li><em>Server-assisted computing with centralized data placement:</em> This includes the crucial problem of large-scale machine learning in sevrer farms, where server entity has full control over data. In this setting, one of the key bottlenecks is that of straggling nodes, that can degrade the  training performance significantly by slowing it down. </li>
+  <li><em>Server-assisted computing with data at the edge users:</em> This includes the problem of federated learning, where a server entity, such as Google, wants to train a machine learning model from data at the users, while ensuring data privacy. Key bottlenecks in this setting include data privacy and security against errors and malicious nodes.</li>
+  <li><em>Serverless computing:</em> Problems in serverless computing include consensus based optimization, where a group of nodes want to learn a model over data available across the entirety of the nodes. There is no central authority to orchestrate the process in this setting.</li>
 </ol>
 
 I have also had the fortune to gain industry experience through multiple internships. I spent Summer 2018 and Summer 2019 as Research Intern at Intel Labs under under Shilpa Talwar respectively. During Summer 2021, I was an Applied Scientist Intern at Amazon Alexa AI under Clement Chung and Rahul Gupta.

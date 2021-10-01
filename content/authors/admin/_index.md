@@ -71,13 +71,20 @@ highlight_name: false
 
 Hi, I am a PhD candidate in the <a href="https://minghsiehece.usc.edu/">Ming Hsieh Department of Electrical and Computer Engineering</a> at the <a href="https://www.usc.edu/"> University of Southern California</a>, working under the guidance of <a href="https://www.avestimehr.com/">Prof. Salman Avestimehr</a> in the <a href="https://www.avestimehr.com/vital-lab">Information Theory and Machine Learning (vITAL)</a> research lab. During my research pursuits, I have also collaborated closely with <a href="https://annavar.am/">Prof. Murali Annavaram</a>, <a href="https://hal.usc.edu/chugg/">Prof. Keith Chugg</a>, and <a href="https://web.ece.ucsb.edu/~ramtin/">Prof. Ramtin Pedarsani</a>. 
 
-During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, I have made contributions to the following three main distributed computing paradigms:  
+During my time here, I have been exploring practical strategies for mitigating real-world bottlenecks in large-scale distributed computing, such as stragglers, limited bandwidth, data privacy, and adversarial nodes. Consequentially, my contributions are broadly classified into the following exciting paradigms:  
 
-<ol>
+<!-- <ol>
   <li><em>Server-assisted computing with centralized data placement:</em> In this domain, a crucial problem that I have focused on is that of the large-scale machine learning in sevrer farms, where server entity has full control over data. In this setting, one of the key bottlenecks is that of straggling nodes, that can degrade the  training performance significantly by slowing it down. </li>
   <li><em>Server-assisted computing with data at the edge users:</em> This includes the problem of federated learning, where a server entity, such as Google, wants to train a machine learning model from data at the users, while ensuring data privacy. Two key bottlenecks that I have addressed in my research works are mititgation of stragglers, and mitigation of nodes causing Byzantine (arbitrary) errors during the training process, both of them being for the general heterogeneous data distribution across the nodes. </li>
   <li><em>Decentralized (serverless) computing:</em> Problems in serverless computing include consensus based optimization, where a group of nodes want to learn a model over data available across the entirety of the nodes. There is no central authority to orchestrate the process in this setting. My recent work in this domain addresses Byzantine mitigation, which is quite challenging due to the absence of a central trusted coordinator.</li>
+</ol> -->
+
+<ol>
+  <li>Secure and Robust Machine Learning at the Edge</li>
+  <li>Efficient Large-Scale Distributed Training in the Cloud</li>
+  <li>Foundations of Coded Distributed Computing</li>
 </ol>
+
 
 I have also had the fortune to gain industry experience through multiple internships. I spent Summer 2018 and Summer 2019 as Research Intern at Intel Labs under <a href="https://scholar.google.com/citations?user=plidYfUAAAAJ">Dr. Shilpa Talwar</a> and <a href="https://scholar.google.com/citations?hl=en&user=frmNZH4AAAAJ">Dr. Nageen Himayat</a> respectively. During Summer 2021, I was an Applied Scientist Intern at Amazon Alexa AI under <a href="https://scholar.google.com/citations?hl=en&user=wBkmDegAAAAJ">Dr. Clement Chung</a> and <a href="https://guptarah.github.io/">Dr. Rahul Gupta</a>.
 

@@ -80,7 +80,7 @@ During my time here, I have been exploring practical strategies for mitigating r
 </ol> -->
 
 <ol>
-  <li>Secure and Robust Machine Learning at the Edge</li>
+  <li>Fast, Robust and Secure Machine Learning at the Edge</li>
   <li>Efficient Large-Scale Distributed Training in the Cloud</li>
   <li>Foundations of Coded Distributed Computing</li>
 </ol>

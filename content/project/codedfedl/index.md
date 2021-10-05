@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 0.5
 title: Low-Latency Federated Learning in Wireless Edge Networks 
 summary: Proposed CodedFedL that injects structured coding redundancy into non-linear federated learning for mitigating stragglers and speeding up training procedure in heterogeneous MEC networks. 
 # tags:

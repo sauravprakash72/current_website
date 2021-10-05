@@ -9,7 +9,7 @@ headless: true
 active: true
 
 # Order that this section appears on the page.
-weight: 25
+weight: 70
 
 title: Selected Conferences
 # subtitle: 'Conferences and Workshops'

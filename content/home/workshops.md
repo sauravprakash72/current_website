@@ -9,7 +9,7 @@ headless: true
 active: true
 
 # Order that this section appears on the page.
-weight: 26
+weight: 80
 
 title: Other<br>Proceedings
 subtitle: 'Workshops'

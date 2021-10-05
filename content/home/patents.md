@@ -9,7 +9,7 @@ headless: true
 active: true
 
 # Order that this section appears on the page.
-weight: 28
+weight: 90
 
 title: Patents
 # subtitle: 'Workshops'

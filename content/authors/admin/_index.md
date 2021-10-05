@@ -14,7 +14,7 @@ organizations:
   url: https://www.usc.edu/ 
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a graduate student with interests in privacy-preserving and secure data analytics.
+bio: I am a graduate student with interests in privacy-preserving, secure, and distributed data analytics.
 
 # Interests to show in About widget
 interests:

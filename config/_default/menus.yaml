@@ -7,22 +7,25 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: Projects
+    url: '#projects'
+    weight: 20
   - name: Publications
     url: '#publications'
-    weight: 50
+    weight: 30
   - name: Patents
     url: '#patents'
-    weight: 51
+    weight: 40
   - name: Talks
     url: '#presentations'
-    weight: 53
+    weight: 50
   - name: Awards
     url: '#accomplishments'
-    weight: 55
+    weight: 60
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 70
   - name: CV
     url: files/cv.pdf
-    weight: 70
+    weight: 80
   

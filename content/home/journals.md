@@ -9,7 +9,7 @@ headless: true
 active: true
 
 # Order that this section appears on the page.
-weight: 23
+weight: 50
 
 title: Selected<br>Journals
 subtitle: ''

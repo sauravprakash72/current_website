@@ -1,16 +1,16 @@
 ---
-weight: 3
+# weight: 3
 title: Secure Large-Scale Serveless Training at the Edge 
 summary: Developed a fast and computationally efficient Byzantine robust algorithm that leverages a sequential, memory assisted and performance criteria for training over a logical ring. 
-# tags:
-# - Heterogeneity
-# - Coded Distributed Computing
-lastmod: "2021-09-16T15:00:00Z"
+tags:
+- 'Privacy-Preserving and Robust Machine Learning at the Edge'
+date: "2021-09-16T15:00:00Z"
 # date: "2020-08-17T19:02:09-04:00"
 # date_end: "2020-04-10T15:00:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 # weight: 3 
+
 image:
   caption: Basil illustration  
   focal_point: Smart

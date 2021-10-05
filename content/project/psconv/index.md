@@ -1,8 +1,8 @@
 ---
 title: Pre-defined Sparsity for Convolutional Neural Networks
 summary: Proposed the first approach to reduce footprint of convolutional neural networks via pre-defined sparsity. 
-# tags:
-# - Heterogeneity
+tags:
+- 'Other'
 # - Coded Distributed Computing
 date: "2019-12-05T00:00:00Z"
 

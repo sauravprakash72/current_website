@@ -1,8 +1,9 @@
 ---
 title: Fast and Robust Large-Scale Distributed Gradient Descent
 summary: Developed a practical algorithm for distributed learning that is both communication efficient and straggler-resilient.
-# tags:
-# - Heterogeneity
+tags:
+- 'Efficient Large-Scale Distributed Learning in the Cloud'
+- 'Foundations of Coded Computing'
 # - Coded Distributed Computing
 date: "2021-09-16T00:00:00Z"
 

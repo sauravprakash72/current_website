@@ -1,8 +1,9 @@
 ---
 title: Hierarchical Decentralized Training at the Edge
 summary: Formulated a problem for decentralized training from data at the edge users, incorporating the challenges of strggling communications and limited communication bandwidth. 
-# tags:
-# - Heterogeneity
+tags:
+- 'Privacy-Preserving and Robust Machine Learning at the Edge'
+- 'Foundations of Coded Computing'
 # - Coded Distributed Computing
 date: "2020-08-24T00:00:00Z"
 

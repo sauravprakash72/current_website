@@ -1,11 +1,11 @@
 ---
-weight: 1
+# weight: 1
 title: Mitigating Byzantine Attacks in Federated Learning 
 summary: Proposed a novel sampling based approach that applies per client criteria for mitigating Byzantines in the general federated learning setting. 
-# tags:
-# - Heterogeneity
-# - Coded Distributed Computing
-lastmod: "2021-07-03T15:00:00Z"
+tags:
+- 'Privacy-Preserving and Robust Machine Learning at the Edge'
+- 'Foundations of Coded Computing'
+date: "2021-07-03T15:00:00Z"
 # date: "2020-08-17T19:02:09-04:00"
 # date_end: "2020-04-10T15:00:00Z"
 # Optional external URL for project (replaces project detail page).

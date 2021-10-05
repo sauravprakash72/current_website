@@ -1,8 +1,8 @@
 ---
 title: Communciation Efficient Large-Scale Graph Processing
 summary: Proposed and implemented a practical MapReduce based approach for large-scale graph processing.
-# tags:
-# - Heterogeneity
+tags:
+- 'Foundations of Coded Computing'
 # - Coded Distributed Computing
 date: "2020-06-03T00:00:00Z"
 

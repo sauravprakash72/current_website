@@ -1,8 +1,8 @@
 ---
 title: Optimal Resource Allocation for Cloud Computing
 summary: Developed an efficient approach for load allocation in heterogeneous cloud clusters.
-# tags:
-# - Heterogeneity
+tags:
+- 'Foundations of Coded Computing'
 # - Coded Distributed Computing
 date: "2019-03-08T00:00:00Z"
 

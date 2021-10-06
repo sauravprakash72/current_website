@@ -12,7 +12,12 @@ weight: 30
 title: Projects
 subtitle: ''
 
+# <p>Hi</p>
+
+
 content:
+  
+  
   # Page type to display. E.g. project.
   page_type: project
 

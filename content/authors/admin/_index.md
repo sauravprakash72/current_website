@@ -19,8 +19,8 @@ bio: I am a graduate student with interests in privacy-preserving, secure, and d
 # Interests to show in About widget
 interests:
 - Secure and Privacy-Preserving Machine Learning
-- Federated Learning 
 - Large-Scale Serverless Training 
+- Robust Federated Learning 
 - Coded Distributed Computing 
 - Information and Coding Theory
 

@@ -20,7 +20,7 @@ bio: I am a graduate student with interests in privacy-preserving, secure, and d
 interests:
 - Security and Privacy in Machine Learning
 - Efficient and Robust Federated Learning 
-- Large-Scale Decentralized (Serverless) Training 
+- Large-Scale Serverless Training 
 - Coded Distributed Computing 
 - Information and Coding Theory
 

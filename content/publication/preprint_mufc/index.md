@@ -1,20 +1,23 @@
 ---
-title: "Basil: A Fast and Byzantine-Resilient Approach for Decentralized Training"
+title: "Machine Unlearning of Federated Clusters"
 # draft: true
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Ahmed Roushdy Elkordy
+- Chao Pan 
+- Jin Sima
 - Saurav Prakash
-- Salman Avestimehr
+- Vishal Rana
+- Olgica Milenkovic
 
 # Author notes (optional)
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 
-date: "2021-09-16"
+date: "2022-10-28"
 doi: ""
 
 # # Schedule page publish date (NOT publication's date).
@@ -27,10 +30,10 @@ doi: ""
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv:2109.07706"
+publication: "arXiv:2210.16424"
 # publication_short: In *ICW*
 
-abstract: Decentralized (i.e., serverless) learning across a large number of distributed users (e.g., mobile users) has seen a surge of  recent interests. The key advantage of these setups is that they provide privacy for the local data of the users while not requiring a server for coordinating the training. They can, however, suffer substantially from potential Byzantine adversaries in the network who may alter the training process to their benefit. Detection and mitigation of Byzantine behaviors in a decentralized learning setting is a daunting task, especially when the data distribution at the users is heterogeneous. As our  main contribution, we propose *Basil*, a fast and computationally efficient Byzantine robust algorithm for decentralized training systems which is based on sequential training over a ring topology.  In the IID dataset distribution setting, we  experimentally  demonstrate that Basil  is robust to various common Byzantine attacks, such as sign flip and Gaussian attacks, while providing up to ~16% higher test accuracy when compared with state-of-the-art Byzantine resilient decentralized learning. We further provide the theoretical convergence guarantees of  Basil for the IID setting. In particular, we show that  Basil has a linear convergence rate. Finally,  we generalize Basil to the decentralized setting with non-IID dataset distribution. We achieve this by proposing Anonymous Cyclic Data Sharing (ACDS), a technique that allows each node to anonymously share a random fraction of its dataset with all other nodes, and integrating it into Basil. Quite interestingly, we demonstrate that even when each node shares only $5\%$ of its local data through ACDS, not only the test accuracy in the non-IID setting can be increased by up to ~10% in the absence of Byzantine nodes, but also using ACDS on top of Basil  provides  resiliency to Byzantine behaviors. 
+abstract: Federated clustering is an unsupervised learning problem that arises in a number of practical applications, including personalized recommender and healthcare systems. With the adoption of recent laws ensuring the "right to be forgotten", the problem of machine unlearning for federated clustering methods has become of significant importance. This work proposes the first known unlearning mechanism for federated clustering with privacy criteria that support simple, provable, and efficient data removal at the client and server level. The gist of our approach is to combine special initialization procedures with quantization methods that allow for secure aggregation of estimated local cluster counts at the server unit. As part of our platform, we introduce secure compressed multiset aggregation (SCMA), which is of independent interest for secure sparse model aggregation. In order to simultaneously facilitate low communication complexity and secret sharing protocols, we integrate Reed-Solomon encoding with special evaluation points into the new SCMA pipeline and derive bounds on the time and communication complexity of different components of the scheme. Compared to completely retraining K-means++ locally and globally for each removal request, we obtain an average speed-up of roughly 84x across seven datasets, two of which contain biological and medical information that is subject to frequent unlearning requests.  
  
 
 
@@ -48,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://export.arxiv.org/pdf/2109.07706'
+url_pdf: 'https://arxiv.org/abs/2210.16424'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''

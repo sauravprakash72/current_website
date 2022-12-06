@@ -1,22 +1,22 @@
 ---
-title: "Secure and Fault Tolerant Decentralized Learning"
+title: "Federated Learning of Large Models at the Edge via Principal Sub-Model Training"
 # draft: true
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Yue Niu
 - Saurav Prakash
-- Hanieh Hashemi
-- Yongqin Wang 
-- Murali Annavaram
+- Souvik Kundu
+- Sunwoo Lee
 - Salman Avestimehr
 
 # Author notes (optional)
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 
-date: "2022-09-13"
+date: "2022-10-17"
 doi: ""
 
 # # Schedule page publish date (NOT publication's date).
@@ -29,11 +29,10 @@ doi: ""
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv:2010.07541"
+publication: "arXiv:2208.13141"
 # publication_short: In *ICW*
 
-abstract: Federated learning (FL) is a promising paradigm for training a global model over data distributed across multiple data owners without centralizing clients' raw data. However, sharing of local model updates can also reveal information of clients' local datasets. Trusted execution environments (TEEs) within the FL server have been recently deployed by companies like Meta for secure aggregation. However, secure aggregation can suffer from error-prone local updates sent by clients that become faulty during training due to underlying device malfunctions. Also, data heterogeneity across clients makes fault mitigation challenging, as even updates from normal clients are dissimilar. Thus, most of the prior fault tolerant methods, which treat any local update differing from the majority of other updates as faulty, perform poorly. We propose DiverseFL to make model aggregation secure as well as robust to faults. In DiverseFL, any client whose local model update diverges from its associated guiding update is tagged as being faulty. To implement our novel per-client criteria for fault mitigation, DiverseFL creates a TEE-based secure enclave within the FL server, which in addition to performing secure aggregation for carrying out the global model update step, securely receives a small representative sample of local data from each client only once before training, and computes guiding updates for each participating client during training. Thus, DiverseFL provides security against privacy leakage as well as robustness against faulty clients. In experiments, DiverseFL consistently achieves significant improvements in absolute test accuracy over prior fault mitigation benchmarks. DiverseFL also performs closely to OracleSGD, where server combines updates only from the normal clients. We also analyze the convergence rate of DiverseFL under non-IID data and standard convexity assumptions.
-
+abstract: Limited compute, memory, and communication capabilities of edge users create a significant bottleneck for federated learning (FL) of large models. Current literature typically tackles the challenge with a heterogeneous client setting or allows training to be offloaded to the server. However, the former requires a fraction of clients to train near-full models, which may not be achievable at the edge; while the latter can compromise privacy with sharing of intermediate representations or labels. In this work, we consider a realistic, but much less explored, cross-device FL setting in which no client has the capacity to train a full large model nor is willing to share any intermediate representations with the server. To this end, we present Principal Sub-Model (PriSM) training methodology, which leverages models low-rank structure and kernel orthogonality to train sub-models in the orthogonal kernel space. More specifically, by applying singular value decomposition to original kernels in the server model, PriSM first obtains a set of principal orthogonal kernels with importance weighed by their singular values. Thereafter, PriSM utilizes a novel sampling strategy that selects different subsets of the principal kernels independently to create sub-models for clients with reduced computation and communication requirements. Importantly, a kernel with a large singular value is assigned with a high sampling probability. Thus, each sub-model is a low-rank approximation of the full large model, and all clients together achieve nearly full coverage of the principal kernels. To further improve memory efficiency, PriSM exploits low-rank structure in intermediate representations and allows each sub-model to learn only a subset of them while still preserving training performance. 
 
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -48,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2010.07541v5.pdf'
+url_pdf: 'https://arxiv.org/abs/2208.13141'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''

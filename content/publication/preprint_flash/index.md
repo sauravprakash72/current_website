@@ -1,23 +1,22 @@
 ---
-
-title: "Technologies for distributing gradient descent computation in a heterogeneous multi-access edge computing (MEC) networks"
+title: "Lottery Aware Sparsity Hunting: Enabling Federated Learning on Resource-Limited Edge"
 # draft: true
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Sara Babakniya
+- Souvik Kundu
 - Saurav Prakash
-- Sagar Dhakal
-- Yair Yona
-- Nageen Himayat
-- Shilpa Talwar
+- Yue Niu
+- Salman Avestimehr
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-02-08"
+date: "2022-10-25"
 doi: ""
 
 # # Schedule page publish date (NOT publication's date).
@@ -27,31 +26,28 @@ doi: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["8"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "US Patent 11,244,242"
-publication_short: "US Patent 11,244,242"
+publication: "arXiv:2208.13092"
+# publication_short: In *ICW*
 
-abstract: Systems, apparatuses, methods, and computer-readable media, are provided for distributed machine learning (ML) training using heterogeneous compute nodes in a heterogeneous computing environment, where the heterogeneous compute nodes are connected to a master node via respective wireless links. ML computations are performed by individual heterogeneous compute nodes on respective training datasets, and a master combines the outputs of the ML computations obtained from individual heterogeneous compute nodes. The ML computations are balanced across the heterogeneous compute nodes based on knowledge of network conditions and operational constraints experienced by the heterogeneous compute nodes. Other embodiments may be described and/or claimed . 
-
+abstract: Limited computation and communication capabilities of clients pose significant challenges in federated learning (FL) over resource-limited edge nodes. A potential solution to this problem is to deploy off-the-shelf sparse learning algorithms that train a binary sparse mask on each client with the expectation of training a consistent sparse server mask yielding sparse weight tensors. However, as we investigate in this paper, such naive deployments result in a significant drop in accuracy compared to FL with dense models, especially for clients with limited resource budgets. In particular, our investigations reveal a serious lack of consensus among the trained sparsity masks on clients, which prevents convergence for the server mask and potentially leads to a substantial drop in model performance. Based on such key observations, we propose federated lottery aware sparsity hunting (FLASH), a unified sparse learning framework to make the server win a lottery in terms of yielding a sparse sub-model, able to maintain classification performance under highly resource-limited client settings. Moreover, to support FL on different devices requiring different parameter density, we leverage our findings to present hetero-FLASH, where clients can have different target sparsity budgets based on their device resource limits. Experimental evaluations with multiple models on various datasets (both IID and non-IID) show superiority of our models in closing the gap with unpruned baseline while yielding up to ∼ 10.1% improved accuracy with ∼ 10.26x fewer communication costs, compared to existing alternatives, at similar hyperparameter settings. 
  
-
-
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 # tags: []
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://patentimages.storage.googleapis.com/61/c5/16/7bc3593c5e50de/US11244242.pdf'
+url_pdf: 'https://arxiv.org/abs/2208.13092'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
@@ -62,10 +58,10 @@ url_pdf: 'https://patentimages.storage.googleapis.com/61/c5/16/7bc3593c5e50de/US
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: true
+# image:
+#   caption: 'DiverseFL Implementation Overview'
+#   focal_point: ""
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

@@ -17,7 +17,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2019-07-18"
+date: "2022-08-23"
 doi: ""
 
 # # Schedule page publish date (NOT publication's date).
@@ -30,8 +30,8 @@ doi: ""
 publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
-publication: "US Patent App. 16/368,716"
-publication_short: "US Patent App. 16/368,716"
+publication: "US Patent 11,423,254"
+publication_short: "US Patent 11,423,254"
 
 abstract: Systems, apparatuses, methods, and computer-readable media are provided for load partitioning in distributed machine learning (ML) training using heterogeneous compute nodes in a heterogeneous computing environment, where the heterogeneous compute nodes are connected to a master node via respective wireless links. ML computations are performed by individual heterogeneous compute nodes on respective load partitions. The ML computations are balanced across the heterogeneous compute nodes based on knowledge of respective computational and link parameters of the heterogeneous compute nodes. Other embodiments may be described and/or claimed. 
  
@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://patentimages.storage.googleapis.com/b8/71/bd/25f2c2f4d53446/US20190220703A1.pdf'
+url_pdf: 'https://patentimages.storage.googleapis.com/c7/5e/30/d680ec103431f4/US11423254.pdf'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''

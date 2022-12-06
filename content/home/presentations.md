@@ -25,6 +25,14 @@ date_format: Jan 2006
 item:
 - #certificate_url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/winners
   date_end: ""
+  date_start: "2022-05-03"
+  #description: ""
+  organization: PhD Defense Presentation, USC
+  organization_url: ""
+  title: "Taming Heterogeneity, the Ubiquitous Beast in Cloud Computing and Decentralized Learning" 
+  url: ""
+- #certificate_url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/winners
+  date_end: ""
   date_start: "2021-07-01"
   #description: ""
   organization: Enclaved AI/ML Workshop, Private AI Research Institute

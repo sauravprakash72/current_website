@@ -1,10 +1,10 @@
 ---
 # weight: 3
-title: Secure Large-Scale Serveless Training at the Edge 
-summary: Developed a fast and computationally efficient Byzantine robust algorithm that leverages a sequential, memory assisted and performance criteria for training over a logical ring. 
+title: Resource-Constrained Federated Learning of Large Models
+summary: Provided a sub-model training method that enabled resource-constrained clients to train large models in federated learning settings. 
 tags:
 - 'Privacy-Preserving and Robust Machine Learning at the Edge'
-date: "2021-09-16T15:00:00Z"
+date: "2022-10-17T15:00:00Z"
 # date: "2020-08-17T19:02:09-04:00"
 # date_end: "2020-04-10T15:00:00Z"
 # Optional external URL for project (replaces project detail page).
@@ -12,12 +12,14 @@ external_link: ""
 # weight: 3 
 
 image:
-  caption: Basil illustration  
+  caption: PriSM illustration  
   focal_point: Smart
 
 links:
 - name: Preprint
-  url: https://arxiv.org/abs/2109.07706v1
+  url: https://arxiv.org/abs/2208.13141 
+- name: NeurIPS Workshop
+  url: https://openreview.net/forum?id=e97uuEXkSii 
 # url_code: ""
 # url_pdf: ""
 # url_slides: ""
@@ -31,4 +33,4 @@ links:
 # slides: example
 ---
 
-Decentralized (i.e., serverless) learning across a large number of distributed users (e.g., mobile users) has seen a surge of  recent interests. The key advantage of these setups is that they provide privacy for the local data of the users while not requiring a server for coordinating the training. They can, however, suffer substantially from potential Byzantine adversaries in the network who may alter the training process to their benefit. Detection and mitigation of Byzantine behaviors in a decentralized learning setting is a daunting task, especially when the data distribution at the users is heterogeneous. As our  main contribution, we propose *Basil*, a fast and computationally efficient Byzantine robust algorithm for decentralized training systems which is based on sequential training over a ring topology.  In the IID dataset distribution setting, we  experimentally  demonstrate that Basil  is robust to various common Byzantine attacks, such as sign flip and Gaussian attacks, while providing up to ~16% higher test accuracy when compared with state-of-the-art Byzantine resilient decentralized learning. We further provide the theoretical convergence guarantees of  Basil for the IID setting. In particular, we show that  Basil has a linear convergence rate. Finally,  we generalize Basil to the decentralized setting with non-IID dataset distribution. We achieve this by proposing Anonymous Cyclic Data Sharing (ACDS), a technique that allows each node to anonymously share a random fraction of its dataset with all other nodes, and integrating it into Basil. Quite interestingly, we demonstrate that even when each node shares only $5\%$ of its local data through ACDS, not only the test accuracy in the non-IID setting can be increased by up to ~10% in the absence of Byzantine nodes, but also using ACDS on top of Basil  provides  resiliency to Byzantine behaviors. 
+Limited compute, memory, and communication capabilities of edge users create a significant bottleneck for federated learning (FL) of large models. Current literature typically tackles the challenge with a heterogeneous client setting or allows training to be offloaded to the server. However, the former requires a fraction of clients to train near-full models, which may not be achievable at the edge; while the latter can compromise privacy with sharing of intermediate representations or labels. In this work, we consider a realistic, but much less explored, cross-device FL setting in which no client has the capacity to train a full large model nor is willing to share any intermediate representations with the server. To this end, we present Principal Sub-Model (PriSM) training methodology, which leverages models low-rank structure and kernel orthogonality to train sub-models in the orthogonal kernel space. More specifically, by applying singular value decomposition to original kernels in the server model, PriSM first obtains a set of principal orthogonal kernels with importance weighed by their singular values. Thereafter, PriSM utilizes a novel sampling strategy that selects different subsets of the principal kernels independently to create sub-models for clients with reduced computation and communication requirements. Importantly, a kernel with a large singular value is assigned with a high sampling probability. Thus, each sub-model is a low-rank approximation of the full large model, and all clients together achieve nearly full coverage of the principal kernels. To further improve memory efficiency, PriSM exploits low-rank structure in intermediate representations and allows each sub-model to learn only a subset of them while still preserving training performance. 

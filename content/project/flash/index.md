@@ -1,10 +1,10 @@
 ---
 # weight: 3
-title: Secure Large-Scale Serveless Training at the Edge 
-summary: Developed a fast and computationally efficient Byzantine robust algorithm that leverages a sequential, memory assisted and performance criteria for training over a logical ring. 
+title: Lottery Aware Sparse Federated Learning 
+summary: Presented methodologies for sparse federated learning for resource constrained edge (both homogeneous and heterogeneous compute budget). 
 tags:
 - 'Privacy-Preserving and Robust Machine Learning at the Edge'
-date: "2021-09-16T15:00:00Z"
+date: "2022-10-25T15:00:00Z"
 # date: "2020-08-17T19:02:09-04:00"
 # date_end: "2020-04-10T15:00:00Z"
 # Optional external URL for project (replaces project detail page).
@@ -12,12 +12,14 @@ external_link: ""
 # weight: 3 
 
 image:
-  caption: Basil illustration  
+  caption: FLASH illustration  
   focal_point: Smart
 
 links:
 - name: Preprint
-  url: https://arxiv.org/abs/2109.07706v1
+  url: https://arxiv.org/abs/2208.13092
+- name: NeurIPS Workshop
+  url: https://openreview.net/forum?id=XEQSP1zL2gx
 # url_code: ""
 # url_pdf: ""
 # url_slides: ""
@@ -31,4 +33,4 @@ links:
 # slides: example
 ---
 
-Decentralized (i.e., serverless) learning across a large number of distributed users (e.g., mobile users) has seen a surge of  recent interests. The key advantage of these setups is that they provide privacy for the local data of the users while not requiring a server for coordinating the training. They can, however, suffer substantially from potential Byzantine adversaries in the network who may alter the training process to their benefit. Detection and mitigation of Byzantine behaviors in a decentralized learning setting is a daunting task, especially when the data distribution at the users is heterogeneous. As our  main contribution, we propose *Basil*, a fast and computationally efficient Byzantine robust algorithm for decentralized training systems which is based on sequential training over a ring topology.  In the IID dataset distribution setting, we  experimentally  demonstrate that Basil  is robust to various common Byzantine attacks, such as sign flip and Gaussian attacks, while providing up to ~16% higher test accuracy when compared with state-of-the-art Byzantine resilient decentralized learning. We further provide the theoretical convergence guarantees of  Basil for the IID setting. In particular, we show that  Basil has a linear convergence rate. Finally,  we generalize Basil to the decentralized setting with non-IID dataset distribution. We achieve this by proposing Anonymous Cyclic Data Sharing (ACDS), a technique that allows each node to anonymously share a random fraction of its dataset with all other nodes, and integrating it into Basil. Quite interestingly, we demonstrate that even when each node shares only $5\%$ of its local data through ACDS, not only the test accuracy in the non-IID setting can be increased by up to ~10% in the absence of Byzantine nodes, but also using ACDS on top of Basil  provides  resiliency to Byzantine behaviors. 
+Limited computation and communication capabilities of clients pose significant challenges in federated learning (FL) over resource-limited edge nodes. A potential solution to this problem is to deploy off-the-shelf sparse learning algorithms that train a binary sparse mask on each client with the expectation of training a consistent sparse server mask yielding sparse weight tensors. However, as we investigate in this paper, such naive deployments result in a significant drop in accuracy compared to FL with dense models, especially for clients with limited resource budgets. In particular, our investigations reveal a serious lack of consensus among the trained sparsity masks on clients, which prevents convergence for the server mask and potentially leads to a substantial drop in model performance. Based on such key observations, we propose federated lottery aware sparsity hunting (FLASH), a unified sparse learning framework to make the server win a lottery in terms of yielding a sparse sub-model, able to maintain classification performance under highly resource-limited client settings. Moreover, to support FL on different devices requiring different parameter density, we leverage our findings to present hetero-FLASH, where clients can have different target sparsity budgets based on their device resource limits. Experimental evaluations with multiple models on various datasets (both IID and non-IID) show superiority of our models in closing the gap with unpruned baseline while yielding up to ∼ 10.1% improved accuracy with ∼ 10.26x fewer communication costs, compared to existing alternatives, at similar hyperparameter settings.

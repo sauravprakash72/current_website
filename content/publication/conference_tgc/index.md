@@ -28,8 +28,8 @@ doi: "10.1109/ISIT.2018.8437860"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Symposium on Information Theory*
-publication_short: In *IEEE International Symposium on Information Theory*
+publication: In *IEEE International Symposium on Information Theory (ISIT), 2019*
+publication_short: In *ISIT 2019*
 
 abstract: Scaling up distributed machine learning systems face two major bottlenecks -- delays due to stragglers and limited communication bandwidth. Recently, a number of coding theoretic strategies have been proposed for mitigating these bottlenecks. In particular, the Gradient Coding (*GC*) scheme was proposed to speed up distributed gradient descent algorithm in a synchronous master-worker setting by providing robustness to stragglers. A major drawback of the master-worker architecture for distributed learning is however, the bandwidth contention at the master, which can significantly deteriorate the performance as the cluster size increases. In this paper, we propose a new framework named Tree Gradient Coding (*TGC*) for distributed gradient aggregation, which parallelizes communication over a tree topology while providing straggler robustness. As our main contribution, we characterize the minimum computation load for *TGC* for a given tree topology and straggler resiliency, and design a tree gradient coding algorithm that achieves this optimal computation load. Furthermore, we provide results from experiments over Amazon EC2, where *TGC* speeds up the training time by up to $18.8\times$ in comparison to *GC*. 
  

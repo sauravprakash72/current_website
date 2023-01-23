@@ -30,8 +30,8 @@ doi: "10.1109/ISIT.2018.8437860"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Symposium on Information Theory*
-publication_short: In *IEEE International Symposium on Information Theory*
+publication: In *IEEE International Symposium on Information Theory (ISIT), 2018*
+publication_short: In *ISIT 2018*
 
 abstract: Many distributed graph computing systems have been  developed recently for efficient processing of massive graphs. These systems require many messages to be exchanged among computing machines at each step of the computation, making *communication bandwidth* a major performance bottleneck. We present a *coded computing* framework that systematically injects redundancy in the computation phase to enable coding opportunities in the communication phase thus reducing the communication load substantially. Specifically, we propose coded schemes that  enable an inverse-linear trade-off (asymptotically) between *computation load* and *average communication load* for Erdös-Rényi (ER) random graph. The proposed scheme for ER graph is shown to be optimal asymptotically as the graph size $n\rightarrow \infty$. For finite $n$, we demonstrate via numerical analysis that for a given computation load $r$, i.e. when each graph vertex is carefully stored at $r$ servers, the proposed scheme slashes the average communication load by (nearly) $r$. 
 

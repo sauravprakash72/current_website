@@ -30,8 +30,8 @@ doi: "10.1109/ALLERTON.2019.8919683"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)*
-publication_short: In *57th Annual Allerton Conference on Communication, Control, and Computing (Allerton)*
+publication: In *57th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2019*
+publication_short: In *Allerton 2019*
 
 abstract: The high demand for computational and storage resources severely impedes the deployment of deep convolutional neural networks (CNNs) in limited resource devices. Recent CNN architectures have proposed reduced complexity versions (e.g,. SuffleNet and MobileNet) but at the cost of modest decreases in accuracy. This paper proposes pSConv, a pre-defined sparse 2D kernel based convolution, which promises significant improvements in the trade-off between complexity and accuracy for both CNN training and inference. To explore the potential of this approach, we have experimented with two widely accepted datasets, CIFAR-10 and Tiny ImageNet, in sparse variants of both the ResNet18 and VGG16 architectures. Our approach shows a parameter count reduction of up to 4.24× with modest degradation in classification accuracy relative to that of standard CNNs. Our approach outperforms a popular variant of ShuffleNet using a variant of ResNet18 with pSConv having 3 × 3 kernels with only four of nine elements not fixed at zero. In particular, the parameter count is reduced by 1.7× for CIFAR-10 and 2.29× for Tiny ImageNet with an increased accuracy of ~ 4%.
 

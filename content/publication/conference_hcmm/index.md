@@ -28,8 +28,8 @@ doi: "10.1109/ISIT.2017.8006961"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Symposium on Information Theory (ISIT), 2020*
-publication_short: In *ISIT 2020*
+publication: In *IEEE International Symposium on Information Theory (ISIT), 2017*
+publication_short: In *ISIT 2017*
 
 abstract: In large-scale distributed computing clusters, such as Amazon EC2,  there are several types of 'system noise' that can result in major degradation of performance -- system failures, bottlenecks due to limited communication bandwidth, latency due to straggler nodes, etc. On the other hand, these systems enjoy abundance of redundancy -- a vast number of computing nodes and large storage capacity. There have been recent results that demonstrate the impact of coding for efficient utilization of computation and storage redundancy to alleviate the effect of stragglers and communication bottlenecks in *homogeneous* clusters. In this paper, we focus on general *heterogeneous* distributed computing clusters consisting of a variety of computing machines with different capabilities. We propose a coding framework for speeding up distributed computing in heterogeneous clusters with straggling servers by trading redundancy for reducing the latency of computation. In particular, we propose  *Heterogeneous Coded Matrix Multiplication (HCMM)* algorithm for performing distributed matrix multiplication over heterogeneous clusters that is provably asymptotically optimal. Moreover, if the number of worker nodes in the cluster is $n$, we show that HCMM is $\Theta(\log n)$ times faster than *any* uncoded scheme. We further provide numerical results  demonstrating significant speedups of up to 49% and 34% for HCMM in comparison to the 'uncoded' and 'homogeneous coded' schemes, respectively.
 

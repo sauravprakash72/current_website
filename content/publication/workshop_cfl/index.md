@@ -31,7 +31,7 @@ publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Globecom Workshops*
-publication_short: In *IEEE Globecom Workshops*
+publication_short: In *Globecom 2019*
 
 abstract: Federated learning is a method of training a global model from decentralized data distributed across client devices. Here, model parameters are computed locally by each client device and exchanged with a central server, which aggregates the local models for a global view, without requiring sharing of training data. The convergence performance of federated learning is severely impacted in heterogeneous computing platforms such as those at the wireless edge, where straggling computations and communication links can significantly limit timely model parameter updates. This paper develops a novel coded computing technique for federated learning to mitigate the impact of stragglers. In the proposed Coded Federated Learning (CFL) scheme, each client device privately generates parity training data and shares it with the central server only once at the start of the training phase. The central server can then preemptively perform redundant gradient computations on the composite parity data to compensate for the erased or delayed parameter updates. Our results show that CFL allows the global model to converge nearly four times faster when compared to an uncoded approach.
 

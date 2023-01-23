@@ -31,7 +31,7 @@ publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE 90th Vehicular Technology Conference (VTC2019-Fall)*
-publication_short: In *VTC2019-Fall*
+publication_short: In *VTC*
 
 abstract: In wireless mobile edge computing platforms, such as those supported by vehicular networks, location specific machine learning models can be trained by distributing computations using resources available at the edge. The computational and communication resources at the wireless edge are heterogeneous and unreliable, which can lead to straggler effects that significantly slow down recursive learning tasks, such as gradient descent. In this paper we propose a coded computation framework, which utilizes statistical knowledge of resource heterogeneity to determine optimal encoding and load balancing of training data using Random Linear codes, while avoiding an explicit step for decoding gradients. Results show that the proposed coding framework speeds up the training time for linear regression models, by up to ten times, when compared with repetition coding schemes.
 

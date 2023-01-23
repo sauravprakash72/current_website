@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE International Symposium on Information Theory (ISIT), 2020*
-publication_short: In *ISIT 2020*
+publication_short: In *ISIT*
 
 abstract: Client devices at the edge are generating increasingly large amounts of rich data suitable for learning powerful statistical models. However, privacy concerns and heavy communication load make it infeasible to move the client data to a centralized location for training. In many distributed learning setups, client nodes carry out gradient computations on their local data while the central master server receives the local gradients and aggregates them to take the global model update step. To guarantee robustness against *straggling* communication links, we consider a hierarchical setup with $n_e$ clients and $n_h$ reliable helper nodes that are available to aid in gradient aggregation at the master. To achieve resiliency against straggling client-to-helpers links, we propose two approaches leveraging *coded redundancy*. First is the Aligned Repetition Coding (ARC) that repeats gradient components on the helper links, allowing  significant partial aggregations at the helpers, resulting in a helpers-to-master communication load ($C_{HM}$) of $\mathcal{O}(n_h)$. ARC however results in a client-to-helpers communication load ($C_{EH}$) of $\Theta(n_h)$, which is prohibitive for client nodes due to limited and costly bandwidth. We thus propose Aligned Minimum Distance Separable Coding (AMC) that achieves optimal $C_{EH}$ of $\Theta(1)$ for a given resiliency threshold by using MDS code over the gradient components, while achieving a $C_{HM}$ of $\mathcal{O}(n_e)$. 
  

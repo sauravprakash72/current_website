@@ -12,7 +12,7 @@ active: true
 weight: 70
 
 title: Conferences
-# subtitle: 'Conferences and Workshops'
+subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...

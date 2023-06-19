@@ -25,6 +25,14 @@ date_format: Jan 2006
 item:
 - #certificate_url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/winners
   date_end: ""
+  date_start: "2023-08-16"
+  #description: ""
+  organization: Institute of Genomic Biology (IGB)
+  organization_url: https://www.igb.illinois.edu/ 
+  title: IGB Fellowship
+  url: ""
+- #certificate_url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/winners
+  date_end: ""
   date_start: "2021-06-30"
   #description: ""
   organization: Qualcomm

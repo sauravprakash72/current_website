@@ -18,10 +18,9 @@ bio: I am a postdoctoral researcher with interests in large-scale, privacy-prese
 
 # Interests to show in About widget
 interests:
-- Security and Privacy in Machine Learning
-- Cancer Phylogeny and Spatial Transcriptomics
-- Efficient and Robust Federated Learning 
-- Coded Distributed Computing 
+- Distributed Optimization and Learning
+- Security and Privacy in Data Analytics
+- Biological Data Modeling and Analysis 
 - Information and Coding Theory
 
 # Education to show in About widget

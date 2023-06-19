@@ -21,7 +21,7 @@ frontmatter:
 title: Saurav Prakash # Website name
 baseurl: 'sauravpr.com' # Website URL
 # baseurl: 'https://saurav-prakash.netlify.app/' # Website URL
-copyright: '© 2021 Saurav Prakash' # Footer text, e.g. '© {year} Me'
+copyright: '© 2023 Saurav Prakash' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

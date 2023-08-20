@@ -14,7 +14,7 @@ organizations:
   url: https://illinois.edu/ 
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an IGB postdoctoral fellow with interests in data privacy, distributed machine learning, and bioinformatics.
+bio: I am an Carl R. Woese postdoctoral fellow with interests in data privacy, distributed machine learning, and bioinformatics.
 
 # Interests to show in About widget
 interests:

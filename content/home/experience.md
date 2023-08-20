@@ -17,13 +17,23 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Postdoctoral Fellow"
+  company = "Carl R. Woese Institute for Genomic Biology (IGB), University of Illinois Urbana-Champaign (UIUC)"
+  company_url = ""
+  location = "Urbana, IL"
+  date_start = "2023-08-01"
+  date_end = "" 
+  description = ""
+
 [[experience]]
   title = "Postdoctoral Researcher"
-  company = "Coordinated Science Laboratory, University of Illinois Urbana-Champaign (UIUC)"
+  company = "Coordinated Science Laboratory (CSL), University of Illinois Urbana-Champaign (UIUC)"
   company_url = ""
   location = "Urbana, IL"
   date_start = "2022-07-01"
-  date_end = ""
+  date_end = "2023-07-31"
   description = ""
 
 [[experience]]

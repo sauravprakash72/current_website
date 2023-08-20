@@ -27,7 +27,7 @@ item:
   date_end: ""
   date_start: "2023-08-16"
   #description: ""
-  organization: Institute of Genomic Biology (IGB)
+  organization: Carl R. Woese Institute Institute for Genomic Biology (IGB)
   organization_url: https://www.igb.illinois.edu/ 
   title: IGB Fellowship
   url: ""

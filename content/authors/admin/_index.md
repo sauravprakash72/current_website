@@ -6,7 +6,7 @@
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher in Coordinated Science Laboratory
+role: Carl R. Woese Postdoctoral Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:

@@ -24,6 +24,14 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - #certificate_url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/winners
+  date_end: "2024-01-24"
+  date_start: "2023-08-31"
+  #description: ""
+  organization: Faculty Candidate Talks at IIT Roorkee, IIT Madras, IIT Kanpur, IIT Bombay, IIT Kharapur, IISc
+  organization_url: ""
+  title: "Trustworthy, Efficient, and Robust Distributed Systems" 
+  url: ""
+- #certificate_url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/winners
   date_end: ""
   date_start: "2022-05-03"
   #description: ""

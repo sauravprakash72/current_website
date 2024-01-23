@@ -42,7 +42,7 @@ abstract: Hierarchical and tree-like data sets arise in many relevant applicatio
 # tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
